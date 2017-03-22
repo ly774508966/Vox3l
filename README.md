@@ -10,7 +10,7 @@ Welcome!
 
 _Vox3l_ (pronounced "voxel-cubed") is an open-source Minecraft-inspired voxel-based survival/exploration game built using the Unity3D game development engine. Building on the power and flexibility of C#, _Vox3l_ is an attempt at creating a vast, seamless world with as little memory hit as possible.
 
-Contributions are welcome from all members in the community; please review the [Contribution](#missing-link) file for more information.
+Contributions are welcome from all members in the community; please review the [CONTRIBUTION](/contribution.md) file for more information.
 
 ## Playing
 
