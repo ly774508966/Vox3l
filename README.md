@@ -16,7 +16,7 @@ Contributions are welcome from all members in the community; please review the [
 
 _Vox3l_ can be run on Windows, Mac and Linux by downloading the appropriate program file from [here](https://github.com/alstudios/Vox3l/releases). Direct download stable builds are uploaded to the GitHub releases page, whilst the development versions can be downloaded from [Jenkins](#missing-link).
 
-For more information regarding actual gameplay, see either the [Playing](#missing-link) or [Mods](#missing-link) page.
+For more information regarding actual gameplay, see either the [PLAYING](/PLAYING.md) or [MODS](/MODS.md) pages.
 
 ## Developing
 
