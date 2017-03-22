@@ -33,7 +33,12 @@ namespace alstudios.vox3l
 			return array == null || array.Length == 0;
 		}
 
-		public static TValue TryOrCreate<TKey, TValue>(this Dictionary<TKey, TValue> dictionary, TKey key, bool deleteEntry = false)
+		public static TValue TryOrCreate<TKey, TValue>(this Dictionary<TKey, TValue> dictionary, TKey key)
+		{
+			return dictionary.TryOrCreate(key, false);
+		}
+
+		public static TValue TryOrCreate<TKey, TValue>(this Dictionary<TKey, TValue> dictionary, TKey key, bool deleteEntry)
 		{
 			TValue value;
 
