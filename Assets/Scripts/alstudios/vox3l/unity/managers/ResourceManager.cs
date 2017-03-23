@@ -21,6 +21,7 @@
 using alstudios.vox3l.resources;
 
 using UnityEngine;
+using System.IO;
 
 namespace alstudios.vox3l.unity.managers
 {
@@ -42,9 +43,14 @@ namespace alstudios.vox3l.unity.managers
 
 		#region ResourceManager
 
-		public static Sprite Sprite(ResourceLocation texture)
+		public static Sprite CreateSprite(ResourceLocation texture)
 		{
-			return null;
+			Texture2D t2d = Resources.Load<Texture2D>(Path.Combine(texture.Domain, texture.Path));
+
+			if(t2d == null)
+				return null;
+
+			return Sprite.Create(t2d, new Rect(0, 0, t2d.width, t2d.height), new Vector2(0.5F, 0.5F));
 		}
 
 		#endregion

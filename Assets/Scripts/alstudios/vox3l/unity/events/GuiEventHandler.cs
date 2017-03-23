@@ -75,7 +75,7 @@ namespace alstudios.vox3l.unity.events
 					GuiImage guiImage = (GuiImage) component;
 
 					Image image = componentGo.AddComponent<Image>();
-					image.sprite = ResourceManager.Sprite(guiImage.Texture);
+					image.sprite = ResourceManager.CreateSprite(guiImage.Texture);
 				}
 			}
 		}
